@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ClubesquadApplication {
 
 	public static void main(String[] args) {
+		
+		System.out.println("Iniciando acesso...");
 		SpringApplication.run(ClubesquadApplication.class, args);
+		System.out.println("Inicialização concluída. Acesso concedido");
 	}
 
 }
